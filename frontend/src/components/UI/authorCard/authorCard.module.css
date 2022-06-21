@@ -1,0 +1,124 @@
+
+.author_card {
+    background-color: #003552;
+    width: 275px;
+    height: fit-content;
+    box-sizing: border-box;
+
+    margin-left: auto;
+    margin-right: 0;
+
+    padding: 30px 40px;
+}
+
+.author_card_author_img {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.author_card_author_name {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.author_card_author_mobile {
+    display: none;
+}
+
+.author_card_data_item_text {
+    font-size: 26px;
+    font-weight: bold;
+    color: #A9BEC9;
+
+    margin-top: 20px;
+}
+
+.author_card_data_item_text_count {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+
+    margin-top: 5px;
+}
+
+
+.author_card_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+
+}
+.author_card_footer_button {
+    padding: 12px 45px;
+    background-color: #002133;
+}
+.author_card_footer_button_text {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.author_card_footer_more {
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+
+@media(max-width: 1200px) {
+    .author_card {
+        width: fit-content;
+        margin: auto;
+        padding: 10px 25px;
+    }
+    .author_card_author {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .author_card_author_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    .author_card_author_img {
+        width: 75px;
+        height: 75px;
+    }
+    .author_card_author_name {
+        font-size: 22px;
+        margin-top: 0;
+    }
+    .author_card_author_mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .author_card_author_mobile_button {
+        padding: 7px 24px;
+        background-color: #002133;
+    }
+    .author_card_author_mobile_button_text {
+        font-size: 16px;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+    .author_card_author_mobile_more {
+        margin-left: 7px;
+    }
+    .author_card_data {
+        display: none;
+    }
+    .author_card_footer {
+        display: none;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+

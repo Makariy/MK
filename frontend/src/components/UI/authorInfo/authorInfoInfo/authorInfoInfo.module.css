@@ -1,0 +1,30 @@
+
+.author__info_info {
+    display: block;
+    background-color: #00324D;
+    padding: 65px;
+}
+
+.author__info_info_menu {
+    display: none;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.author__info_info_menu span {
+    font-size: 16px;
+    color: #A9BEC9;
+    font-weight: bold;
+}
+
+@media(max-width: 600px) {
+    .author__info_info_menu {
+        display: flex;
+    }
+    .author__info_info {
+        position: relative;
+        padding: 25px;
+    }
+}

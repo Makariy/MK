@@ -1,0 +1,19 @@
+
+
+.author_section {
+    margin: 25px auto;
+    width: 100%;
+}
+
+.author {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100%;
+    position: relative;
+}
+
+@media(max-width: 1000px) {
+    .author {
+        display: flex;
+    }
+}

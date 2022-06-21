@@ -1,0 +1,10 @@
+{
+  "short_name": "untitled",
+  "name": "untitled",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#002336",
+  "background_color": "#002E47"
+}

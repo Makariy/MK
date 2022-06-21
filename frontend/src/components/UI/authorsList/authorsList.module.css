@@ -1,0 +1,9 @@
+.authors_list_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 55px;
+    gap: 35px;
+}

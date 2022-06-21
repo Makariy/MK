@@ -1,0 +1,6 @@
+src/venv/*
+src/.idea
+src/environment.txt
+src/debug.log
+frontend/node_modules
+www/images

@@ -1,0 +1,33 @@
+
+.search {
+    background-color: #003552;
+    width: fit-content;
+}
+
+.search__inner {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search__inner_search {
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width: 1250px) {
+    .search {
+        margin-top: 20px;
+        margin: auto;
+    }
+    .search__inner {
+        padding: 10px;
+    }
+    .search__inner_search {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .search__inner_search input {
+        font-size: 17px;
+    }
+}

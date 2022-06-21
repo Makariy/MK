@@ -1,0 +1,31 @@
+
+.post__footer {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.post__footer_likes {
+    display: flex;
+    align-items: center;
+}
+.post__footer_likes_counter {
+    margin-left: 5px;
+    color: #A9BEC9;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media(max-width: 600px) {
+    .post__footer {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .post__footer_likes_counter {
+        font-size: 14px;
+    }
+}
